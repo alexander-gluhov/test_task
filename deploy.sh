@@ -1,5 +1,5 @@
 #!/bin/bash
-apt-get -y install dpkg-deb
+apt-get -y install dpkg-dev
 mkdir -p deb-packages
 cd deb-packages
 cp ../tmp/peervpn_0.1-1_amd64.deb .

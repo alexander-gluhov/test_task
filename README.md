@@ -8,6 +8,7 @@
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 ```
+Запуск:
 1. install_deps.sh - установка зависимостей для сборки
 2. build.sh - создаем временную папку, скачиваем исходники и собираем их
 3. build_deb.sh - создаем папки нужные для сборки deb пакета, создаем файл с метаданными пакета и собираем deb
